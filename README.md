@@ -17,7 +17,7 @@ $ sudo nvidia-docker build . -t #name
 
 ## Run the docker
 ```sh
-$ sudo nvidia-docker run -it -p 8001:8888 --name yy_ml -v /home/yy/Documents/Docker/docker_fold:/usr/app yy/ml:latest /bin/bash
+$ sudo nvidia-docker run -it -p 8001:8888 --name #containerName -v /home/yy/Documents/Docker/docker_fold:/usr/app #imageName:#imageTag /bin/bash
 ```
 
 ## Continue the existing docker
