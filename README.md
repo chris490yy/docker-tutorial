@@ -32,3 +32,8 @@ $ sudo nvidia-docker attach #dockername
 $ docker rmi #imageName
 $ docker rm #imageName
 ```
+
+## Open second terminal for same container
+```
+$ docker exec -t #containerName /bin/bash
+```
