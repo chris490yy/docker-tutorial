@@ -35,5 +35,5 @@ $ docker rm #imageName
 
 ## Open second terminal for same container
 ```
-$ docker exec -t #containerName /bin/bash
+$ docker exec -it #containerName /bin/bash
 ```
