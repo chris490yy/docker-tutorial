@@ -37,3 +37,8 @@ $ docker rm #imageName
 ```
 $ docker exec -it #containerName /bin/bash
 ```
+
+## Fail to start container bug fix
+```
+￥sudo mknod -m 666 /dev/nvidia-uvm-tools c $(grep nvidia-uvm /proc/devices | awk '{print $1}') 1
+```
